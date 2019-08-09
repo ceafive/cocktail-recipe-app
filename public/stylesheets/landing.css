@@ -5,5 +5,18 @@ body {
 }
 
 .header {
-	padding: 30% 10%;
+	padding: 20% 10% 0 10%;
 }
+
+
+.ion-md-wine {
+	font-size: 250%;
+}
+
+.ion-ios-wine,
+.ion-ios-beer,
+.ion-ios-pint,
+.ion-ios-cafe {
+	font-size: 450%;
+}
+

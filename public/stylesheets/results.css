@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Blinker', sans-serif;
-	
+	background-color: #FADE16;
 }
 
 .owl-carousel .owl-item img {
@@ -22,6 +22,12 @@ body {
 	border-radius: 35px 35px 0px 0px;
 	border: 0px solid #000000;
 }
+
+
+.ion-md-wine {
+	font-size: 250%;
+}
+
 
 .ion-ios-star,
 h6{

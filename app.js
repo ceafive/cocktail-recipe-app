@@ -33,8 +33,6 @@ app.get('/results', function(req,res){
 let drinkQuery = req.sanitize(req.query.drink);
 	request("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=" + drinkQuery, function(err, response, body){
 	let parsedData = JSON.parse(body);
-	console.log(drinkQuery);
-	console.log(parsedData.drinks);
 	if(err || parsedData.drinks === null){
             req.flash("error", "Invalid Drink Name");
             return res.redirect('/')
