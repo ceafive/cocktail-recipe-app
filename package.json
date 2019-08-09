@@ -1,0 +1,21 @@
+{
+  "name": "cocktail-app",
+  "version": "1.0.0",
+  "description": "an app for cocktail recipes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Castro Agbo",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.9",
+    "request": "^2.88.0"
+  }
+}

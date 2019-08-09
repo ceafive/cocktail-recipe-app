@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Blinker', sans-serif;
+	
+}
+
+.owl-carousel .owl-item img {
+	height: 90%;
+	width: 70%;
+	
+}
+
+
+.main {
+	margin: 0 0 0 0;
+	padding: 5% 10% 0 10%;
+	background-color: #000;
+	color: #fff;
+	border-radius: 35px 35px 0px 0px;
+	border: 0px solid #000000;
+}
+
+.ion-ios-star,
+h6{
+	color: #AB341E;
+}
